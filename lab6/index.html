@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 6 - More Complicated HTML</title>
+	<h1>Lab 6 - More Complicated HTML</h1>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
+	<form action="https://google.com/search" method="get" target="_new">
+		<label>Search: <input name="q" type="text"></label><br>
+			<label>Password: <input name="pw" type="password"></label><br>
+			<label>Biography: <textarea name="essay" placeholder="Hello I am a text box that needs to be typed in" width 300 x 300></textarea></label><br>
+			<label>Agree: <input name="agree" type="checkbox" value="yes"></label><br>
+			<label>Gender:
+			<input name="gender" type="radio" value="cat">Cat</label>
+			<input name="gender" type="radio" value="dog">Dog</label>
+			<input name="gender" type="radio" value="bird">Bird</label><br>
+		<label>Fav Show:
+		<select name="show">
+			<option disabled selected>Please Select</option>
+			<option value="sopranos">Sopranos</option>
 
+	<input type="submit" value="Submit">
 </body>
 </html>
