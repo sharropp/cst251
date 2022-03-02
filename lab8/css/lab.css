@@ -20,6 +20,9 @@ p {
 div#challenge {
   padding:10px 0px 50px 0px;
 }
+div#problem{
+  padding: 10px 0px 50px 0px;
+}
 h2 {
   color: grey;
   text-decoration:underline;
@@ -29,22 +32,11 @@ h1{
   background-color: lightgray;
   border: solid 1px #333333;
   height: 30px
-  color: white;
+
 }
-
-
-
-
-
 
 h1, h2, h3 {
     font-family: "Courier New", monospace;
-}
-
-img {
-    float: right;
-    width: 400px;
-    height: auto;
 }
 
 a {
@@ -52,8 +44,5 @@ a {
     color: maroon;
 }
 img:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy;
     width: 600px;
-
 }
