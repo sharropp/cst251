@@ -1,0 +1,59 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: darkgray;
+    padding: 25px;
+    font-size: 120%;
+}
+
+.work {
+    margin-bottom: 1rem;
+    padding:10px 0px 30px 0px;
+    background-color: lightgray;
+    border: solid 1px #333333;
+    height: 80px;
+    width: 1100px;
+}
+p {
+  text-align: left;
+}
+
+div#challenge {
+  padding:10px 0px 50px 0px;
+}
+h2 {
+  color: grey;
+  text-decoration:underline;
+}
+h1{
+  padding:10px;
+  background-color: lightgray;
+  border: solid 1px #333333;
+  height: 30px
+  color: white;
+}
+
+
+
+
+
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+img:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    width: 600px;
+
+}
