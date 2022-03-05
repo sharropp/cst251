@@ -1,6 +1,6 @@
 body {
     font-family: "Courier New", monospace;
-    background-color: #000140;
+    background-color: #2757DB;
     padding: 25px;
     font-size: 120%;
     font-weight: bold;
@@ -48,4 +48,15 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
+}
+img{
+  border: solid 4px #333333;
+  transition: transform .2s;
+}
+img:hover{
+
+  transform: scale(1.5);
+}
+h1{
+  text-decoration: underline;
 }

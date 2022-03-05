@@ -1,32 +1,17 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: darkgray;
+    background-color: #2757DB;
     padding: 25px;
     font-size: 120%;
 }
 
-div#content {
+div#woop {
     padding: 50px;
-    background-color: lightgray;
+    background-color: #F2E5A2;
     border: solid 1px #333333;
-    height: 80vh;
+    height: 95vh;
 }
 
 h1, h2, h3 {
     font-family: "Courier New", monospace;
-}
-
-img {
-    float: right;
-    width: 400px;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-    color: maroon;
-}
-a:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy;
 }
