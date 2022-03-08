@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #2757DB;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+  margin-top: 10px;
+    padding: 50px;
+    background-color: #F2E5A2;
+    border: dotted 5px #333333;
+    height: 40vh;
+}
+
+div#h3{
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #F2E5A2;
+  border: dotted 5px #333333;
+  width: 50vw;
+}
+
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+img {
+    float: right;
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: -115px;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
