@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Sansita+Swashed:wght@700&display=swap');
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #2757DB;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+  margin-top: 10px;
+    padding: 50px;
+    background-color: #F2E5A2;
+    border: dotted 5px #333333;
+    height: 50vh;
+}
+
+h2{
+font-family: 'Sansita Swashed', cursive;
+letter-spacing: normal;
+text-decoration-color: #0c0d0d;
+text-transform: lowercase;
+}
+p{
+  font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
