@@ -19,8 +19,9 @@ h1, h2, h3 {
 
 img {
     float: right;
-    width: 400px;
-    height: auto;
+    width: 300px;
+    position: relative;
+    top: -100px;
 }
 
 a {
