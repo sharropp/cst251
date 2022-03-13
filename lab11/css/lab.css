@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Sansita+Swashed:wght@700&display=swap');
+nav{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: #F2E5A2;
+  padding: 5px;
+  border: dashed 10px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+}
+
+aside#sidebar{
+  background-color: lightgray;
+  padding: 15px;
+  font-size: 120%;
+  float: right;
+  margin: 15px;
+  width: 25%;
+  border: dashed 10px;
+}
+
+h1{
+  font-style: oblique;
+}
+
+div#gif{
+  border: 0px !important;
+}
+
+
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #2757DB;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+  margin-top: 10px;
+    padding: 250px;
+    background-color: #F2E5A2;
+    border: dashed 10px;
+    height: 70vh;
+    width: 30vw;
+}
+
+h2{
+font-family: 'Sansita Swashed', cursive;
+letter-spacing: normal;
+text-decoration-color: #0c0d0d;
+text-transform: lowercase;
+}
+p{
+  font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
