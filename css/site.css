@@ -1,6 +1,6 @@
 body {
     font-family: "Courier New", monospace;
-    background-color: #2757DB;
+    background-color: #AECB95;
     padding: 25px;
     font-size: 120%;
     font-weight: bold;
@@ -9,12 +9,15 @@ div#title{
   width: 50vw;
   border: solid 5px #333333;
   background-color: #F2E5A2;
+  margin-bottom: 5vh;
+  border: dashed 10px #2F4858;
 }
 
 div#pictures{
   float: right;
   width: 20vw;
   height: 20vh;
+    margin-bottom: 5vh;
 }
 
 div#bio {
@@ -22,6 +25,8 @@ div#bio {
     background-color: #F2E5A2;
     border: solid 5px #333333;
     width: 70vw;
+      margin-bottom: 5vh;
+      border: dashed 10px #2F4858;
 }
 
 div#labs {
@@ -30,6 +35,8 @@ div#labs {
     border: solid 5px #333333;
     height: 30vh;
     width: 70vw;
+      margin-bottom: 5vh;
+      border: dashed 10px #2F4858;
 }
 
 h2{
