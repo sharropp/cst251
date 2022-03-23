@@ -1,6 +1,16 @@
+nav{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  background-color: #F2E5A2;
+  padding: 5px;
+  border: dashed 10px #2F4858;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+}
+
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: #2757DB;
+    background-color: #AECB95;
     padding: 25px;
     font-size: 120%;
 }
@@ -9,7 +19,7 @@ div#content {
   margin-top: 10px;
     padding: 50px;
     background-color: #F2E5A2;
-    border: dotted 5px #333333;
+    border: dashed 10px #2F4858;
     height: 40vh;
 }
 
@@ -17,7 +27,7 @@ div#h3{
   margin-top: 30px;
   padding: 20px;
   background-color: #F2E5A2;
-  border: dotted 5px #333333;
+  border: dashed 10px #2F4858;
   width: 50vw;
 }
 

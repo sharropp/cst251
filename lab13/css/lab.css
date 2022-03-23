@@ -4,52 +4,54 @@ nav{
   font-family: Helvetica, Verdana, Arial, "san serif";
   background-color: #F2E5A2;
   padding: 5px;
-  border: dashed 10px;
+  border: dashed 10px #2F4858;
   margin-bottom: 20px;
   position: sticky;
   top: 0;
 }
-
-aside#sidebar{
-  background-color: lightgray;
-  padding: 15px;
-  font-size: 120%;
-  float: right;
-  margin: 15px;
-  width: 25%;
-  border: dashed 10px;
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
 }
-
+{}
 h1{
   font-style: oblique;
 }
 
-div#gif{
-  border: 0px !important;
+main#content {
+  margin-top: 10px;
+    padding: 50px;
+    background-color: #F2E5A2;
+    border: dashed 10px #2F4858;
+    height: 270vh;
 }
 
+div#labs{
+  padding: 30px;
+  height: 60vh;
+  background-color: #4C8B86;
+  border: dotted 5px #2F4858;
+  margin-bottom: 10vh;
+}
+
+
+ p{
+    color: #FEF9EA!important;
+}
 
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: #2757DB;
+    background-color: #AECB95;
     padding: 25px;
     font-size: 120%;
-}
-
-div#content {
-  margin-top: 10px;
-    padding: 250px;
-    background-color: #F2E5A2;
-    border: dashed 10px;
-    height: 70vh;
-    width: 30vw;
 }
 
 h2{
 font-family: 'Sansita Swashed', cursive;
 letter-spacing: normal;
-text-decoration-color: #0c0d0d;
-text-transform: lowercase;
+  color: #C1CF87;
 }
 p{
   font-family: 'Merriweather', serif;

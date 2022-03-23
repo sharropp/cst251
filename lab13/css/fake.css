@@ -1,0 +1,24 @@
+body{
+  background-color: #f4ebd3;
+}
+div#banner{
+  padding:30px;
+  font-family: futura-pt;
+  color: #38afba;
+    font-weight: 700;
+    font-size: 200px;
+    text-align: center;
+}
+.word2 {
+    float: right;
+}
+.word1 {
+    float: left;
+}
+div#content{
+  font-family: "GT-America", sans-serif;
+  padding:150px;
+  font-size: 30px;
+  line-height: 50px;
+
+}

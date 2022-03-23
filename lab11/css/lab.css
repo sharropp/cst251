@@ -4,7 +4,7 @@ nav{
   font-family: Helvetica, Verdana, Arial, "san serif";
   background-color: #F2E5A2;
   padding: 5px;
-  border: dashed 10px;
+  border: dashed 10px #2F4858;
   margin-bottom: 20px;
   position: sticky;
   top: 0;
@@ -17,7 +17,7 @@ aside#sidebar{
   float: right;
   margin: 15px;
   width: 25%;
-  border: dashed 10px;
+  border: dashed 10px #2F4858;
 }
 
 h1{
@@ -31,18 +31,17 @@ div#gif{
 
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: #2757DB;
+    background-color: #AECB95;
     padding: 25px;
     font-size: 120%;
 }
 
 div#content {
-  margin-top: 10px;
     padding: 250px;
     background-color: #F2E5A2;
-    border: dashed 10px;
-    height: 70vh;
-    width: 30vw;
+    border: dashed 10px #2F4858;
+    height: 700px;
+    width: 400px;
 }
 
 h2{
