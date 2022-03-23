@@ -6,8 +6,6 @@ nav{
   padding: 5px;
   border: dashed 10px #2F4858;
   margin-bottom: 20px;
-  position: sticky;
-  top: 0;
 }
 iframe#fake {
     width: 800px;
