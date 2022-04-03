@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Sansita+Swashed:wght@700&display=swap');
+nav{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #F2E5A2;
+    padding: 5px;
+    border: dashed 10px #2F4858;
+    margin-bottom: 20px;
+    top: 0;
+    color: white;
+}
+
+
+h1{
+  font-style: oblique;
+    text-shadow: 0 0 5px black;
+}
+
+main#content {
+  margin-top: 10px;
+    padding: 50px;
+    background-color: #F2E5A2;
+    border: dashed 10px #2F4858;
+    height: 370vh;
+}
+
+div#content{
+  padding: 30px;
+    height: 60vh;
+    background-color: #4C8B86;
+    border: dotted 5px #2F4858;
+    border-radius: 25px;
+    margin-bottom: 10vh;
+    box-shadow: 3px 3px 5px grey;
+}
+div#title1{
+  background-image:
+    radial-gradient(#4C8B86, #A1557B);
+    padding:20px;
+    border: dotted 5px #2F4858;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+div#title2{
+  background-image:
+    radial-gradient(#4C8B86, #A1557B);
+    padding:20px;
+    border: dotted 5px #2F4858;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+div#title3{
+  background-image:
+    radial-gradient(#4C8B86, #A1557B);
+    padding:20px;
+    border: dotted 5px #2F4858;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+img{
+  width: 500px;
+}
+.filter{
+float:right;
+  filter: grayscale(100%)
+}
+.fit{
+float:right;
+  width:500px;
+  height:300px;
+  object-fit: cover;
+}
+.transform{
+float:right;
+  width:500px;
+  transform: rotate(5deg);
+
+}
+ p{
+  color: #FEF9EA!important;
+}
+h3{
+  color:#C1CF87;
+    font-family: 'Sansita Swashed', cursive;
+    letter-spacing: normal;
+    text-decoration-color: #0c0d0d;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #AECB95;
+    padding: 25px;
+    font-size: 120%;
+}
+
+h2 {
+font-family: 'Sansita Swashed', cursive;
+  letter-spacing: normal;
+  color: #C1CF87;
+  text-shadow: 0 0 5px black;
+}
+p {
+font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
