@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Sansita+Swashed:wght@700&display=swap');
+nav{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #F2E5A2;
+    padding: 5px;
+    border: dashed 10px #2F4858;
+    margin-bottom: 20px;
+    top: 0;
+    color: white;
+}
+div#content{
+  background-image: url("../img/starry.jpg"),url("../img/pearl.jpg");
+  background-position: right bottom,left top;
+  background-repeat: no-repeat,no-repeat;
+  background-size: cover, 200px;
+}
+
+
+h1{
+  font-style: oblique;
+    text-shadow: 0 0 5px black;
+}
+
+main#content {
+  margin-top: 10px;
+    height: 120vh;
+}
+
+div#content{
+  padding: 30px;
+    height: 60vh;
+    background-color: #4C8B86;
+    border: dotted 5px #2F4858;
+    border-radius: 25px;
+    margin-bottom: 10vh;
+    box-shadow: 3px 3px 5px grey;
+}
+div#title1{
+  background-image:
+    radial-gradient(#4C8B86, #A1557B);
+    padding:20px;
+    border: dotted 5px #2F4858;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+img:hover{
+  width: 300px;
+}
+img{
+  width: 100px;
+    height: 100px;
+    transition: width 2s;
+  }
+
+main#title2{
+  background-image:
+    radial-gradient(#4C8B86, #A1557B);
+    padding:20px;
+    border: dotted 5px #2F4858;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+div#color{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: square;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes square {
+  0%   {background-color: blue;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: red;}
+}
+div#title3{
+  background-image:
+    radial-gradient(#4C8B86, #A1557B);
+    padding:20px;
+    border: dotted 5px #2F4858;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+img{
+  width: 500px;
+}
+div#title3 {
+  column-count: 3;
+}
+
+ p{
+  color: #FEF9EA!important;
+}
+h3{
+  color:#C1CF87;
+    font-family: 'Sansita Swashed', cursive;
+    letter-spacing: normal;
+    text-decoration-color: #0c0d0d;
+}
+
+body {
+  font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #AECB95;
+    padding: 25px;
+    font-size: 120%;
+}
+
+h2 {
+font-family: 'Sansita Swashed', cursive;
+  letter-spacing: normal;
+  color: #C1CF87;
+  text-shadow: 0 0 5px black;
+}
+p {
+font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
