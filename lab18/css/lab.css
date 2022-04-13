@@ -62,14 +62,15 @@ li{
   display: inline;
 }
 .flex{
-  display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
 }
-.box{
-  height: 300px;
-  min-width: 300px;
-  max-width: 1000px;
+.image{
+  width:200px;
+}
+@media screen and (max-width:600px) {
+  .flex {
+    width:100% !important;
+  }
 }
 body{
   font-family: Helvetica, Verdana, Arial, "san serif";
