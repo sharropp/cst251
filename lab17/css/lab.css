@@ -32,6 +32,9 @@ aside#images{
     top: 212px;
     left: 469px;
 }
+img{
+  width:300px;
+}
 main{
   background-color: #C5E6FF;
   padding: 5px;
