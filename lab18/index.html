@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 18 - Responsive Design</title>
+	<title>Lab 19 - CSS Frameworks</title>
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	<meta name="viewport"content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<main class="flex-container">
 <header class="flex">
   <h1>Header</h1>
   <p>section with all of the identifying information for your website.</p>
@@ -22,18 +23,20 @@
 	<img src="img/pic3.jpg" class="image">
 </aside>
 
-<main class="flex">
-<section id="challenge" class="flex">
-  <h1>Challenge</h1>
-  <p>No Challenge</p>
-  </section>
-  <section id="problem" class="flex">
+<main id="section"class="flex">
+<section class="flex">
+	<div class="challenge">
+		<h1>Challenge</h1>
+	  <p>No Challenge</p>
+	</div>
+  <div class="problems">
   <h1>Problems</h1>
   <p>No Problems</p>
-  </section>
-  <section id="results" class="flex">
-    <h1>Results</h1>
-    <p>No Results</p>
+</div>
+<div class="results">
+  <h1>Results</h1>
+  <p>No Results</p>
+</div>
   </section>
 </main>
 
@@ -41,5 +44,6 @@
   <h1>footer</h1>
   <p>section with your contact information.</p>
   </footer>
-  </body>
+</main>
+</body>
 </html>

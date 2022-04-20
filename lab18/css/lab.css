@@ -10,34 +10,35 @@ header{
     padding: 5px;
     border: dashed 10px #2F4858;
     margin-bottom: 20px;
-    top: 0;
+    width:100%;
+}
+.flex-container{
+  background-color: #597A98;
 }
 nav#sidenav{
     background-color: #C5E6FF;
     padding: 15px;
     font-size: 120%;
-    float: right;
-    width: 25%;
+    height: 10vh;
+    width: 45%;
     border: dashed 10px #2F4858;
+    margin-bottom: 10px;
 }
 aside#images{
     background-color: #C5E6FF;
     padding: 15px;
     font-size: 120%;
-    float: right;
     width: 25%;
     border: dashed 10px #2F4858;
     height: 92vh;
-    position: relative;
-    top: 212px;
-    left: 469px;
+
 }
-main{
+main#section{
   background-color: #C5E6FF;
   padding: 5px;
   height: 120vh;
   border: dashed 10px #2F4858;
-  width:65%;
+  width:60%;
 }
 section{
   padding:30px;
@@ -45,6 +46,8 @@ section{
   margin-top: 75px;
   background-color: #597A98;
   border: dotted 5px #C5E6FF;
+  width:90%;
+  height: 110vh
 }
 
 footer{
@@ -52,6 +55,7 @@ footer{
   padding: 5px;
   border: dashed 10px #2F4858;
   margin-top: 15px;
+  width: 100%;
 }
 
 ul {
@@ -61,14 +65,17 @@ ul {
 li{
   display: inline;
 }
+.flex-container{
+  display:flex;
+  flex-wrap: wrap;
+}
 .flex{
-  display: flex;
   flex-wrap: wrap;
 }
 .image{
   width:200px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
   .flex {
     width:100% !important;
   }
