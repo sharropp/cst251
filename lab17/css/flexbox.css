@@ -10,15 +10,13 @@ header{
     padding: 5px;
     border: dashed 10px #2F4858;
     margin-bottom: 20px;
-    top: 0;
 }
 nav#sidenav{
     background-color: #C5E6FF;
     padding: 15px;
     font-size: 120%;
-    float: right;
-    width: 25%;
     border: dashed 10px #2F4858;
+    margin-bottom: 20px;
 }
 aside#images{
     background-color: #C5E6FF;
@@ -27,10 +25,7 @@ aside#images{
     float: right;
     width: 25%;
     border: dashed 10px #2F4858;
-    height: 92vh;
-    position: relative;
-    top: 212px;
-    left: 469px;
+    height: 118vh;
 }
 main{
   background-color: #C5E6FF;
@@ -41,8 +36,6 @@ main{
 }
 section{
   padding:30px;
-  margin-bottom: 195px;
-  margin-top: 75px;
   background-color: #597A98;
   border: dotted 5px #C5E6FF;
 }
